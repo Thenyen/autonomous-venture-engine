@@ -1,0 +1,139 @@
+{
+  "name": "Autonomous Venture Engine",
+  "version": "0.1.0",
+  "description": "Ein autonomes System zur Validierung und Umsetzung von Micro-SaaS-Ideen. Agenten arbeiten eigenständig zusammen, um Marktchancen zu identifizieren, zu bewerten und in funktionsfähige Produkte umzusetzen.",
+  "agents": {
+    "brain": {
+      "id": "brain",
+      "name": "Brain – Strategische Entscheidungslogik",
+      "path": "core/brain",
+      "role": "Zentrale Steuerungsinstanz und Entscheidungsträger des gesamten Systems.",
+      "responsibilities": [
+        "Priorisierung und Auswahl von Micro-SaaS-Ideen anhand von Scoring-Modellen",
+        "Orchestrierung der anderen Agenten (Researcher, Coder)",
+        "Go/No-Go-Entscheidungen auf Basis von Validierungsergebnissen",
+        "Strategische Ressourcenallokation und Zeitplanung",
+        "Überwachung des gesamten Venture-Pipelines"
+      ],
+      "competencies": [
+        "multi_criteria_decision_analysis",
+        "agent_orchestration",
+        "pipeline_management",
+        "risk_assessment",
+        "goal_decomposition"
+      ],
+      "inputs": [
+        "Marktanalyse-Berichte vom Researcher",
+        "Build-Status und Ergebnisse vom Coder",
+        "Historische Daten aus shared/memory"
+      ],
+      "outputs": [
+        "Priorisierte Ideenliste",
+        "Aufträge an Researcher und Coder",
+        "Go/No-Go-Entscheidungen",
+        "Venture-Status-Reports"
+      ]
+    },
+    "researcher": {
+      "id": "researcher",
+      "name": "Researcher – Marktanalyse-Agent",
+      "path": "agents/researcher",
+      "role": "Autonome Recherche und Validierung von Marktchancen für Micro-SaaS-Produkte.",
+      "responsibilities": [
+        "Identifikation von Micro-SaaS-Nischen und Marktlücken",
+        "Wettbewerbsanalyse und Differenzierungspotenzial bewerten",
+        "Zielgruppendefinition und Bedarfsanalyse",
+        "Preismodell- und Monetarisierungsvorschläge",
+        "Trendanalyse und Marktgrößenschätzung"
+      ],
+      "competencies": [
+        "market_research",
+        "competitor_analysis",
+        "trend_detection",
+        "audience_segmentation",
+        "pricing_strategy",
+        "web_scraping",
+        "data_synthesis"
+      ],
+      "inputs": [
+        "Rechercheaufträge vom Brain",
+        "Rohideen und Hypothesen",
+        "Externe Datenquellen (APIs, Web)"
+      ],
+      "outputs": [
+        "Marktanalyse-Reports",
+        "Wettbewerbslandkarten",
+        "Validierungsergebnisse mit Scoring",
+        "Zielgruppen-Profile"
+      ]
+    },
+    "coder": {
+      "id": "coder",
+      "name": "Coder – App-Erstellungs-Agent",
+      "path": "agents/coder",
+      "role": "Autonome Entwicklung und Deployment von Micro-SaaS-Prototypen und MVPs.",
+      "responsibilities": [
+        "Generierung von Micro-SaaS-Anwendungen basierend auf validierten Ideen",
+        "Erstellung von Landing Pages und MVPs",
+        "Tech-Stack-Auswahl und Architekturentscheidungen",
+        "Automatisiertes Testing und Qualitätssicherung",
+        "Deployment und Monitoring der erstellten Anwendungen"
+      ],
+      "competencies": [
+        "full_stack_development",
+        "rapid_prototyping",
+        "landing_page_generation",
+        "api_integration",
+        "automated_testing",
+        "ci_cd_pipeline",
+        "cloud_deployment"
+      ],
+      "inputs": [
+        "Build-Aufträge vom Brain",
+        "Validierte Ideen-Spezifikationen",
+        "Zielgruppen-Profile vom Researcher"
+      ],
+      "outputs": [
+        "Funktionsfähige Prototypen / MVPs",
+        "Landing Pages",
+        "Technische Dokumentation",
+        "Deployment-URLs und Status-Berichte"
+      ]
+    }
+  },
+  "shared": {
+    "memory": {
+      "path": "shared/memory",
+      "description": "Zentraler Wissensaustausch zwischen allen Agenten. Speichert Erkenntnisse, Entscheidungen und Ergebnisse persistent.",
+      "stores": [
+        {
+          "name": "ideas",
+          "description": "Pool aller generierten und bewerteten Micro-SaaS-Ideen"
+        },
+        {
+          "name": "decisions",
+          "description": "Protokoll aller Go/No-Go-Entscheidungen mit Begründungen"
+        },
+        {
+          "name": "learnings",
+          "description": "Gesammelte Erkenntnisse und Lessons Learned aus vergangenen Ventures"
+        },
+        {
+          "name": "leads",
+          "description": "Vom Researcher identifizierte und bewertete Micro-SaaS-Nischen-Leads mit Scoring"
+        }
+      ]
+    }
+  },
+  "pipeline": {
+    "stages": [
+      "ideation",
+      "research",
+      "validation",
+      "decision",
+      "development",
+      "launch",
+      "monitoring"
+    ]
+  }
+}
