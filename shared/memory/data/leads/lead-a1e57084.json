@@ -1,0 +1,37 @@
+{
+  "id": "lead-a1e57084",
+  "category": "leads",
+  "content": {
+    "idea_id": "lead-a1e57084",
+    "niche_name": "AI Meeting Summarizer",
+    "market_size_estimate": "$10M-$50M ARR",
+    "market_size_score": 0.75,
+    "competitor_count": 8,
+    "competitors": [
+      {
+        "name": "Otter.ai"
+      },
+      {
+        "name": "Fireflies.ai"
+      },
+      {
+        "name": "Fathom"
+      }
+    ],
+    "target_audience": "Remote-Teams, Consultants, Projektmanager",
+    "differentiation_potential": 0.55,
+    "pricing_suggestion": "$12-$25/User/Monat",
+    "validation_score": 0.625,
+    "source": "simulated_api",
+    "notes": "Automatische Zusammenfassung von Online-Meetings mit Action-Items und Follow-up-Erkennung.",
+    "scored_at": "2026-05-16T11:24:53.806768"
+  },
+  "agent_source": "researcher",
+  "created_at": "2026-05-16T11:24:53.806819",
+  "tags": [
+    "simulated_api",
+    "meeting",
+    "summarizer",
+    "remote-teams"
+  ]
+}

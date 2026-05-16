@@ -1,0 +1,36 @@
+{
+  "id": "lead-1345c67b",
+  "category": "leads",
+  "content": {
+    "idea_id": "lead-1345c67b",
+    "niche_name": "Niche Community Platform Builder",
+    "market_size_estimate": "$20M-$80M ARR",
+    "market_size_score": 0.85,
+    "competitor_count": 5,
+    "competitors": [
+      {
+        "name": "Circle.so"
+      },
+      {
+        "name": "Mighty Networks"
+      }
+    ],
+    "target_audience": "Creator, Coaches, Nischen-Experten",
+    "differentiation_potential": 0.7,
+    "pricing_suggestion": "$19-$49/Monat",
+    "validation_score": 0.76,
+    "source": "simulated_api",
+    "notes": "No-Code-Tool zum Aufbau themenspezifischer Micro-Communities mit eingebautem Paywall.",
+    "scored_at": "2026-05-16T11:24:53.806789"
+  },
+  "agent_source": "researcher",
+  "created_at": "2026-05-16T11:24:53.807141",
+  "tags": [
+    "simulated_api",
+    "niche",
+    "community",
+    "platform",
+    "builder",
+    "creator"
+  ]
+}

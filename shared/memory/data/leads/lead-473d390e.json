@@ -1,0 +1,39 @@
+{
+  "id": "lead-473d390e",
+  "category": "leads",
+  "content": {
+    "idea_id": "lead-473d390e",
+    "niche_name": "AI-Powered Customer Feedback Triage",
+    "market_size_estimate": "$15M-$40M ARR",
+    "market_size_score": 0.7,
+    "competitor_count": 6,
+    "competitors": [
+      {
+        "name": "Canny"
+      },
+      {
+        "name": "Productboard"
+      },
+      {
+        "name": "UserVoice"
+      }
+    ],
+    "target_audience": "Product-Teams, Customer Success, SaaS-Unternehmen",
+    "differentiation_potential": 0.65,
+    "pricing_suggestion": "$29-$79/Monat",
+    "validation_score": 0.68,
+    "source": "simulated_api",
+    "notes": "Automatische Kategorisierung und Priorisierung von Kunden-Feedback aus verschiedenen Kanälen.",
+    "scored_at": "2026-05-16T11:24:53.806801"
+  },
+  "agent_source": "researcher",
+  "created_at": "2026-05-16T11:24:53.807547",
+  "tags": [
+    "simulated_api",
+    "powered",
+    "customer",
+    "feedback",
+    "triage",
+    "product-teams"
+  ]
+}

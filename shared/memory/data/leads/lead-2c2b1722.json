@@ -1,0 +1,44 @@
+{
+  "id": "lead-2c2b1722",
+  "category": "leads",
+  "content": {
+    "idea_id": "lead-2c2b1722",
+    "niche_name": "Micro-SaaS Invoice Tracker für Freelancer",
+    "market_size_estimate": "$5M-$15M ARR",
+    "market_size_score": 0.5,
+    "competitor_count": 15,
+    "competitors": [
+      {
+        "name": "FreshBooks"
+      },
+      {
+        "name": "Wave"
+      },
+      {
+        "name": "Zoho Invoice"
+      },
+      {
+        "name": "Bonsai"
+      }
+    ],
+    "target_audience": "Freelancer, Solo-Unternehmer",
+    "differentiation_potential": 0.35,
+    "pricing_suggestion": "$5-$9/Monat",
+    "validation_score": 0.365,
+    "source": "simulated_api",
+    "notes": "Minimalistische Rechnungsverfolgung speziell für Solo-Freelancer mit automatischer Mahnfunktion.",
+    "scored_at": "2026-05-16T11:24:53.806781"
+  },
+  "agent_source": "researcher",
+  "created_at": "2026-05-16T11:24:53.807010",
+  "tags": [
+    "simulated_api",
+    "micro",
+    "saas",
+    "invoice",
+    "tracker",
+    "für",
+    "freelancer",
+    "freelancer"
+  ]
+}
